@@ -1,0 +1,93 @@
+version: '2'
+
+services:
+
+  sentiment:
+    container_name: sentimentelk
+    build:
+      context: sentiment/
+    ports:
+      - "5001:5000"
+    networks:
+      elk:
+        aliases:
+          - sentiment
+
+  elasticsearch:
+    container_name: elasticsearchelk
+    build:
+      context: elasticsearch/
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+      # Create and chmod 777 data folder
+      #- ./data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xmx4096m -Xms4096m"
+      #ES_JAVA_OPTS: "-Xmx8192m -Xms8192m"
+      #ES_JAVA_OPTS: "-Xmx16384m -Xms16384m"
+    networks:
+      elk:
+        aliases:
+          - elasticsearch
+    depends_on:
+      - sentiment
+
+  logstash:
+    container_name: logstashelk
+    build:
+      context: logstash/
+    volumes:
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
+      - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
+      - ./logstash/template:/usr/share/logstash/template:ro
+    ports:
+      - "5000:5000"
+    environment:
+      #LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+      #LS_JAVA_OPTS: "-Xmx512m -Xms512m"
+      LS_JAVA_OPTS: "-Xmx1024m -Xms1024m"
+      #LS_JAVA_OPTS: "-Xmx2048m -Xms2048m"
+      #LS_JAVA_OPTS: "-Xmx4096m -Xms4096m"
+      #LS_JAVA_OPTS: "-Xmx8192m -Xms8192m"
+    networks:
+      elk:
+        aliases:
+          - logstash
+    depends_on:
+      - elasticsearch
+
+  kibana:
+    container_name: kibanaelk
+    build:
+      context: kibana/
+    volumes:
+      - ./kibana/config/:/usr/share/kibana/config:ro
+    ports:
+      - "5601:5601"
+    networks:
+      elk:
+        aliases:
+          - kibana
+    depends_on:
+      - elasticsearch
+
+  cerebro:
+    container_name: cerebroelk
+    build:
+      context: cerebro/
+    ports:
+      - "9001:9000"
+    networks:
+      elk:
+        aliases:
+          - cerebro
+    depends_on:
+      - elasticsearch
+
+networks:
+
+  elk:
+    driver: bridge

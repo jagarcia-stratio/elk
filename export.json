@@ -1,0 +1,851 @@
+[
+  {
+    "_id": "f82ab8c0-60fa-11e8-b4b1-61c45b3c2182",
+    "_type": "dashboard",
+    "_source": {
+      "title": "General",
+      "hits": 0,
+      "description": "General",
+      "panelsJSON": "[{\"panelIndex\":\"6\",\"gridData\":{\"x\":24,\"y\":81,\"w\":24,\"h\":15,\"i\":\"6\"},\"id\":\"2aaa2d90-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":71,\"w\":32,\"h\":10,\"i\":\"8\"},\"id\":\"1abfc6b0-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":29,\"y\":18,\"w\":19,\"h\":12,\"i\":\"10\"},\"id\":\"b3eda7e0-60f9-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":81,\"w\":24,\"h\":15,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":24,\"y\":60,\"w\":24,\"h\":11,\"i\":\"15\"},\"id\":\"2a5f2140-73c1-11e8-a81f-b5b60d5d1f25\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":0,\"y\":60,\"w\":24,\"h\":11,\"i\":\"17\"},\"embeddableConfig\":{},\"id\":\"e4cc0150-7c46-11e8-93f8-bfd6ed59c58c\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":16,\"y\":0,\"w\":16,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":24,\"y\":45,\"w\":24,\"h\":15,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[-9.79567758282973,0],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":0,\"y\":45,\"w\":24,\"h\":15,\"i\":\"21\"},\"embeddableConfig\":{\"mapCenter\":[27.571507311475735,0.3142994502559305],\"mapZoom\":1},\"id\":\"4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"22\",\"gridData\":{\"x\":0,\"y\":0,\"w\":16,\"h\":14,\"i\":\"22\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"4515e960-7c72-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":14,\"w\":29,\"h\":16,\"i\":\"23\"},\"embeddableConfig\":{},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":32,\"y\":8,\"w\":16,\"h\":10,\"i\":\"24\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"25\",\"gridData\":{\"x\":32,\"y\":71,\"w\":16,\"h\":10,\"i\":\"25\"},\"embeddableConfig\":{},\"id\":\"8a984850-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":32,\"y\":0,\"w\":16,\"h\":8,\"i\":\"26\"},\"embeddableConfig\":{},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":14,\"y\":96,\"w\":17,\"h\":12,\"i\":\"27\"},\"embeddableConfig\":{},\"id\":\"ceb0ea90-7d1b-11e8-9d8d-695f630a9b5d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":0,\"y\":108,\"w\":24,\"h\":15,\"i\":\"28\"},\"embeddableConfig\":{},\"id\":\"5548e770-7c71-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":24,\"y\":108,\"w\":24,\"h\":15,\"i\":\"29\"},\"embeddableConfig\":{},\"id\":\"5c1bbe20-7c75-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"30\",\"gridData\":{\"x\":0,\"y\":123,\"w\":24,\"h\":15,\"i\":\"30\"},\"embeddableConfig\":{},\"id\":\"220d9e60-7dc4-11e8-92ab-b58ebe4a3f62\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"31\",\"gridData\":{\"x\":24,\"y\":123,\"w\":24,\"h\":15,\"i\":\"31\"},\"embeddableConfig\":{},\"id\":\"3b59e810-7dc4-11e8-92ab-b58ebe4a3f62\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"32\",\"gridData\":{\"x\":11,\"y\":30,\"w\":24,\"h\":15,\"i\":\"32\"},\"embeddableConfig\":{},\"id\":\"85b70c10-8348-11e8-aca2-1d3434ee706c\",\"type\":\"visualization\",\"version\":\"6.3.0\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-1h",
+      "refreshInterval": {
+        "display": "1 minute",
+        "pause": false,
+        "section": 2,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "82ebab10-7c79-11e8-8c84-dd2537051584",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Football",
+      "hits": 0,
+      "description": "Football teams",
+      "panelsJSON": "[{\"panelIndex\":\"6\",\"gridData\":{\"x\":24,\"y\":82,\"w\":24,\"h\":15,\"i\":\"6\"},\"id\":\"2aaa2d90-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":16,\"y\":36,\"w\":16,\"h\":14,\"i\":\"10\"},\"id\":\"b3eda7e0-60f9-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":24,\"y\":67,\"w\":24,\"h\":15,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":0,\"y\":50,\"w\":48,\"h\":17,\"i\":\"15\"},\"id\":\"2a5f2140-73c1-11e8-a81f-b5b60d5d1f25\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":32,\"y\":36,\"w\":16,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":24,\"y\":21,\"w\":24,\"h\":15,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[-9.102096738726443,17.578125000000004],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":0,\"y\":21,\"w\":23,\"h\":15,\"i\":\"21\"},\"embeddableConfig\":{\"mapCenter\":[2.1088986592431382,9.140625000000002],\"mapZoom\":1},\"id\":\"4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":67,\"w\":24,\"h\":15,\"i\":\"23\"},\"embeddableConfig\":{},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":0,\"y\":36,\"w\":16,\"h\":14,\"i\":\"24\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"25\",\"gridData\":{\"x\":36,\"y\":8,\"w\":12,\"h\":13,\"i\":\"25\"},\"embeddableConfig\":{},\"id\":\"8a984850-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":36,\"y\":0,\"w\":12,\"h\":8,\"i\":\"26\"},\"embeddableConfig\":{},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":0,\"y\":82,\"w\":24,\"h\":15,\"i\":\"28\"},\"embeddableConfig\":{},\"id\":\"b4f51560-75f8-11e8-a5d7-3f7b9b80d4cf\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":0,\"y\":0,\"w\":36,\"h\":21,\"i\":\"29\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"5076bdc0-7551-11e8-9979-41f2639f64a1\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-1h",
+      "refreshInterval": {
+        "display": "1 minute",
+        "pause": false,
+        "section": 2,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"tags.keyword\",\"negate\":false,\"params\":{\"query\":\"football\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"football\"},\"query\":{\"match\":{\"tags.keyword\":{\"query\":\"football\",\"type\":\"phrase\"}}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0da5aab0-7c7c-11e8-8c84-dd2537051584",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Football extra",
+      "hits": 0,
+      "description": "Football teams with the old untagged tweets",
+      "panelsJSON": "[{\"panelIndex\":\"6\",\"gridData\":{\"x\":24,\"y\":81,\"w\":24,\"h\":15,\"i\":\"6\"},\"id\":\"2aaa2d90-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":16,\"y\":35,\"w\":16,\"h\":14,\"i\":\"10\"},\"id\":\"b3eda7e0-60f9-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":24,\"y\":66,\"w\":24,\"h\":15,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":0,\"y\":49,\"w\":48,\"h\":17,\"i\":\"15\"},\"id\":\"2a5f2140-73c1-11e8-a81f-b5b60d5d1f25\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":32,\"y\":35,\"w\":16,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":24,\"y\":20,\"w\":24,\"h\":15,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[45.089035564831036,-4.921875000000001],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":0,\"y\":20,\"w\":23,\"h\":15,\"i\":\"21\"},\"embeddableConfig\":{\"mapCenter\":[27.571507311475735,0.3142994502559305],\"mapZoom\":1},\"id\":\"4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":66,\"w\":24,\"h\":15,\"i\":\"23\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"embeddableConfig\":{}},{\"panelIndex\":\"24\",\"gridData\":{\"x\":0,\"y\":35,\"w\":16,\"h\":14,\"i\":\"24\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}}},{\"panelIndex\":\"25\",\"gridData\":{\"x\":36,\"y\":8,\"w\":12,\"h\":12,\"i\":\"25\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"8a984850-7c6f-11e8-8c84-dd2537051584\",\"embeddableConfig\":{}},{\"panelIndex\":\"26\",\"gridData\":{\"x\":36,\"y\":0,\"w\":12,\"h\":8,\"i\":\"26\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"embeddableConfig\":{}},{\"panelIndex\":\"27\",\"gridData\":{\"x\":0,\"y\":0,\"w\":36,\"h\":20,\"i\":\"27\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"60292c30-7637-11e8-af78-4ff20284cbaa\",\"embeddableConfig\":{}},{\"panelIndex\":\"28\",\"gridData\":{\"x\":0,\"y\":81,\"w\":24,\"h\":15,\"i\":\"28\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"b4f51560-75f8-11e8-a5d7-3f7b9b80d4cf\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-10d/d",
+      "refreshInterval": {
+        "display": "1 minute",
+        "pause": false,
+        "section": 2,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrases\",\"key\":\"tags.keyword\",\"value\":\"untagged, football\",\"params\":[\"untagged\",\"football\"],\"negate\":false,\"disabled\":false,\"alias\":null},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"tags.keyword\":\"untagged\"}},{\"match_phrase\":{\"tags.keyword\":\"football\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrase\",\"key\":\"hashtags.keyword\",\"value\":\"blockchain\",\"params\":{\"query\":\"blockchain\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":true,\"alias\":null},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"blockchain\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrase\",\"key\":\"hashtags.keyword\",\"value\":\"bitcoin\",\"params\":{\"query\":\"bitcoin\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":true,\"alias\":null},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"bitcoin\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrase\",\"key\":\"hashtags.keyword\",\"value\":\"ico\",\"params\":{\"query\":\"ico\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":true,\"alias\":null},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"ico\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrase\",\"key\":\"hashtags.keyword\",\"value\":\"cryptocurrency\",\"params\":{\"query\":\"cryptocurrency\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":true,\"alias\":null},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"cryptocurrency\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrase\",\"key\":\"hashtags.keyword\",\"value\":\"antmanandthewasp\",\"params\":{\"query\":\"antmanandthewasp\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":true,\"alias\":null},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"antmanandthewasp\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"type\":\"phrase\",\"key\":\"hashtags.keyword\",\"value\":\"machinelearning\",\"params\":{\"query\":\"machinelearning\",\"type\":\"phrase\"},\"disabled\":false,\"negate\":true,\"alias\":null},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"machinelearning\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9fbb1ad0-84fa-11e8-a416-abfe985cb848",
+    "_type": "dashboard",
+    "_source": {
+      "title": "General with content",
+      "hits": 0,
+      "description": "General",
+      "panelsJSON": "[{\"panelIndex\":\"6\",\"gridData\":{\"x\":24,\"y\":81,\"w\":24,\"h\":15,\"i\":\"6\"},\"id\":\"2aaa2d90-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":71,\"w\":32,\"h\":10,\"i\":\"8\"},\"id\":\"1abfc6b0-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":29,\"y\":18,\"w\":19,\"h\":12,\"i\":\"10\"},\"id\":\"b3eda7e0-60f9-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":81,\"w\":24,\"h\":15,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":24,\"y\":60,\"w\":24,\"h\":11,\"i\":\"15\"},\"id\":\"2a5f2140-73c1-11e8-a81f-b5b60d5d1f25\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":0,\"y\":60,\"w\":24,\"h\":11,\"i\":\"17\"},\"embeddableConfig\":{},\"id\":\"e4cc0150-7c46-11e8-93f8-bfd6ed59c58c\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":16,\"y\":0,\"w\":16,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":24,\"y\":45,\"w\":24,\"h\":15,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[-9.79567758282973,0],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":0,\"y\":45,\"w\":24,\"h\":15,\"i\":\"21\"},\"embeddableConfig\":{\"mapCenter\":[27.571507311475735,0.3142994502559305],\"mapZoom\":1},\"id\":\"4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"22\",\"gridData\":{\"x\":0,\"y\":0,\"w\":16,\"h\":14,\"i\":\"22\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"4515e960-7c72-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":14,\"w\":29,\"h\":16,\"i\":\"23\"},\"embeddableConfig\":{},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":32,\"y\":8,\"w\":16,\"h\":10,\"i\":\"24\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"25\",\"gridData\":{\"x\":32,\"y\":71,\"w\":16,\"h\":10,\"i\":\"25\"},\"embeddableConfig\":{},\"id\":\"8a984850-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":32,\"y\":0,\"w\":16,\"h\":8,\"i\":\"26\"},\"embeddableConfig\":{},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":14,\"y\":96,\"w\":17,\"h\":12,\"i\":\"27\"},\"embeddableConfig\":{},\"id\":\"ceb0ea90-7d1b-11e8-9d8d-695f630a9b5d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":0,\"y\":108,\"w\":24,\"h\":15,\"i\":\"28\"},\"embeddableConfig\":{},\"id\":\"5548e770-7c71-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":24,\"y\":108,\"w\":24,\"h\":15,\"i\":\"29\"},\"embeddableConfig\":{},\"id\":\"5c1bbe20-7c75-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"30\",\"gridData\":{\"x\":0,\"y\":123,\"w\":24,\"h\":15,\"i\":\"30\"},\"embeddableConfig\":{},\"id\":\"220d9e60-7dc4-11e8-92ab-b58ebe4a3f62\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"31\",\"gridData\":{\"x\":24,\"y\":123,\"w\":24,\"h\":15,\"i\":\"31\"},\"embeddableConfig\":{},\"id\":\"3b59e810-7dc4-11e8-92ab-b58ebe4a3f62\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"32\",\"gridData\":{\"x\":0,\"y\":30,\"w\":24,\"h\":15,\"i\":\"32\"},\"embeddableConfig\":{},\"id\":\"85b70c10-8348-11e8-aca2-1d3434ee706c\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"34\",\"gridData\":{\"x\":24,\"y\":30,\"w\":24,\"h\":15,\"i\":\"34\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"a86a2440-843d-11e8-aca2-1d3434ee706c\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-1h",
+      "refreshInterval": {
+        "display": "1 minute",
+        "pause": false,
+        "section": 2,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0cc89f60-8507-11e8-a416-abfe985cb848",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Football extra complete reduced",
+      "hits": 0,
+      "description": "Football teams with the old untagged tweets",
+      "panelsJSON": "[{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":59,\"w\":48,\"h\":12,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":36,\"y\":8,\"w\":12,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":0,\"y\":22,\"w\":17,\"h\":22,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[-9.45583884317767,9.536742995308601e-7],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":17,\"y\":44,\"w\":31,\"h\":15,\"i\":\"23\"},\"embeddableConfig\":{},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":0,\"y\":44,\"w\":17,\"h\":15,\"i\":\"24\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":36,\"y\":0,\"w\":12,\"h\":8,\"i\":\"26\"},\"embeddableConfig\":{},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":0,\"y\":0,\"w\":36,\"h\":22,\"i\":\"27\"},\"embeddableConfig\":{},\"id\":\"60292c30-7637-11e8-af78-4ff20284cbaa\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":17,\"y\":22,\"w\":31,\"h\":22,\"i\":\"28\"},\"embeddableConfig\":{},\"id\":\"b4f51560-75f8-11e8-a5d7-3f7b9b80d4cf\",\"type\":\"visualization\",\"version\":\"6.3.0\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "Sun Jul 22 2018 23:59:59 GMT+0200",
+      "timeFrom": "Tue Jun 19 2018 00:00:00 GMT+0200",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "section": 0,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"tags.keyword\",\"negate\":false,\"params\":[\"untagged\",\"football\"],\"type\":\"phrases\",\"value\":\"untagged, football\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"tags.keyword\":\"untagged\"}},{\"match_phrase\":{\"tags.keyword\":\"football\"}}]}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"hashtags.keyword\",\"negate\":true,\"params\":{\"query\":\"blockchain\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"blockchain\"},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"blockchain\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"hashtags.keyword\",\"negate\":true,\"params\":{\"query\":\"bitcoin\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"bitcoin\"},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"bitcoin\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"hashtags.keyword\",\"negate\":true,\"params\":{\"query\":\"cryptocurrency\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"cryptocurrency\"},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"cryptocurrency\",\"type\":\"phrase\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"hashtags.keyword\",\"negate\":true,\"params\":{\"query\":\"crypto\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"crypto\"},\"query\":{\"match\":{\"hashtags.keyword\":{\"query\":\"crypto\",\"type\":\"phrase\"}}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "09de1960-8b38-11e8-a602-e5df784f9854",
+    "_type": "dashboard",
+    "_source": {
+      "title": "General rearranged with content",
+      "hits": 0,
+      "description": "General",
+      "panelsJSON": "[{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":74,\"w\":24,\"h\":15,\"i\":\"6\"},\"id\":\"2aaa2d90-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":11,\"w\":32,\"h\":11,\"i\":\"8\"},\"id\":\"1abfc6b0-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":29,\"y\":22,\"w\":19,\"h\":12,\"i\":\"10\"},\"id\":\"b3eda7e0-60f9-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":59,\"w\":24,\"h\":15,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":29,\"y\":34,\"w\":19,\"h\":11,\"i\":\"15\"},\"id\":\"2a5f2140-73c1-11e8-a81f-b5b60d5d1f25\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":0,\"y\":48,\"w\":24,\"h\":11,\"i\":\"17\"},\"embeddableConfig\":{},\"id\":\"e4cc0150-7c46-11e8-93f8-bfd6ed59c58c\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":32,\"y\":0,\"w\":16,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":24,\"y\":72,\"w\":24,\"h\":15,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[-9.79567758282973,0],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":24,\"y\":57,\"w\":24,\"h\":15,\"i\":\"21\"},\"embeddableConfig\":{\"mapCenter\":[27.571507311475735,0.3142994502559305],\"mapZoom\":1},\"id\":\"4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"22\",\"gridData\":{\"x\":0,\"y\":38,\"w\":13,\"h\":10,\"i\":\"22\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"4515e960-7c72-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":22,\"w\":29,\"h\":16,\"i\":\"23\"},\"embeddableConfig\":{},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":29,\"y\":45,\"w\":19,\"h\":12,\"i\":\"24\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"25\",\"gridData\":{\"x\":13,\"y\":38,\"w\":16,\"h\":10,\"i\":\"25\"},\"embeddableConfig\":{},\"id\":\"8a984850-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":32,\"y\":14,\"w\":16,\"h\":8,\"i\":\"26\"},\"embeddableConfig\":{},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":0,\"y\":89,\"w\":13,\"h\":13,\"i\":\"27\"},\"embeddableConfig\":{},\"id\":\"ceb0ea90-7d1b-11e8-9d8d-695f630a9b5d\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":0,\"y\":102,\"w\":24,\"h\":15,\"i\":\"28\"},\"embeddableConfig\":{},\"id\":\"5548e770-7c71-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":24,\"y\":102,\"w\":24,\"h\":15,\"i\":\"29\"},\"embeddableConfig\":{},\"id\":\"5c1bbe20-7c75-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"30\",\"gridData\":{\"x\":0,\"y\":117,\"w\":24,\"h\":15,\"i\":\"30\"},\"embeddableConfig\":{},\"id\":\"220d9e60-7dc4-11e8-92ab-b58ebe4a3f62\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"31\",\"gridData\":{\"x\":24,\"y\":117,\"w\":24,\"h\":15,\"i\":\"31\"},\"embeddableConfig\":{},\"id\":\"3b59e810-7dc4-11e8-92ab-b58ebe4a3f62\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"32\",\"gridData\":{\"x\":0,\"y\":0,\"w\":32,\"h\":11,\"i\":\"32\"},\"embeddableConfig\":{},\"id\":\"85b70c10-8348-11e8-aca2-1d3434ee706c\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"33\",\"gridData\":{\"x\":24,\"y\":87,\"w\":24,\"h\":15,\"i\":\"33\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"a86a2440-843d-11e8-aca2-1d3434ee706c\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-1h",
+      "refreshInterval": {
+        "display": "1 minute",
+        "pause": false,
+        "section": 2,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "93b212b0-7c7c-11e8-8c84-dd2537051584",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Football extra complete",
+      "hits": 0,
+      "description": "Football teams with the old untagged tweets",
+      "panelsJSON": "[{\"panelIndex\":\"6\",\"gridData\":{\"x\":24,\"y\":81,\"w\":24,\"h\":15,\"i\":\"6\"},\"id\":\"2aaa2d90-60f5-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":16,\"y\":52,\"w\":32,\"h\":14,\"i\":\"10\"},\"id\":\"b3eda7e0-60f9-11e8-b4b1-61c45b3c2182\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":24,\"y\":66,\"w\":24,\"h\":15,\"i\":\"12\"},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":0,\"y\":38,\"w\":16,\"h\":14,\"i\":\"18\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":24,\"y\":21,\"w\":24,\"h\":17,\"i\":\"20\"},\"embeddableConfig\":{\"mapCenter\":[-4.915832801313164,0],\"mapZoom\":1},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":0,\"y\":21,\"w\":24,\"h\":17,\"i\":\"21\"},\"embeddableConfig\":{\"mapCenter\":[0,0],\"mapZoom\":1},\"id\":\"4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":66,\"w\":24,\"h\":15,\"i\":\"23\"},\"embeddableConfig\":{},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":0,\"y\":52,\"w\":16,\"h\":14,\"i\":\"24\"},\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"25\",\"gridData\":{\"x\":36,\"y\":8,\"w\":12,\"h\":13,\"i\":\"25\"},\"embeddableConfig\":{},\"id\":\"8a984850-7c6f-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":36,\"y\":0,\"w\":12,\"h\":8,\"i\":\"26\"},\"embeddableConfig\":{},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":0,\"y\":0,\"w\":36,\"h\":21,\"i\":\"27\"},\"embeddableConfig\":{},\"id\":\"60292c30-7637-11e8-af78-4ff20284cbaa\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"28\",\"gridData\":{\"x\":0,\"y\":81,\"w\":24,\"h\":15,\"i\":\"28\"},\"embeddableConfig\":{},\"id\":\"b4f51560-75f8-11e8-a5d7-3f7b9b80d4cf\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":16,\"y\":38,\"w\":32,\"h\":14,\"i\":\"29\"},\"version\":\"6.3.0\",\"type\":\"visualization\",\"id\":\"85b70c10-8348-11e8-aca2-1d3434ee706c\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "Sat Jul 21 2018 23:59:59 GMT+0200",
+      "timeFrom": "Tue Jun 19 2018 00:00:00 GMT+0200",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "section": 0,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"key\":\"tags.keyword\",\"negate\":false,\"params\":[\"untagged\",\"football\"],\"type\":\"phrases\",\"value\":\"untagged, football\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"tags.keyword\":\"untagged\"}},{\"match_phrase\":{\"tags.keyword\":\"football\"}}]}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "da9ac0b0-8e46-11e8-80fc-2f3a3f3de9f7",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Football extra complete reduced unfiltered",
+      "hits": 0,
+      "description": "Football teams with the old untagged tweets",
+      "panelsJSON": "[{\"gridData\":{\"h\":12,\"i\":\"12\",\"w\":48,\"x\":0,\"y\":59},\"id\":\"230e3780-6112-11e8-848d-ef80b491cdc2\",\"panelIndex\":\"12\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"h\":14,\"i\":\"18\",\"w\":12,\"x\":36,\"y\":8},\"id\":\"b02ef730-7b9d-11e8-af01-676b467f3271\",\"panelIndex\":\"18\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{\"mapCenter\":[-9.45583884317767,9.536742995308601e-7],\"mapZoom\":1},\"gridData\":{\"h\":22,\"i\":\"20\",\"w\":17,\"x\":0,\"y\":22},\"id\":\"449be620-7c6c-11e8-8c84-dd2537051584\",\"panelIndex\":\"20\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"23\",\"w\":31,\"x\":17,\"y\":44},\"id\":\"f68c15f0-7c6f-11e8-8c84-dd2537051584\",\"panelIndex\":\"23\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"gridData\":{\"h\":15,\"i\":\"24\",\"w\":17,\"x\":0,\"y\":44},\"id\":\"d6bbb830-7c73-11e8-8c84-dd2537051584\",\"panelIndex\":\"24\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":8,\"i\":\"26\",\"w\":12,\"x\":36,\"y\":0},\"id\":\"8de50580-7c73-11e8-8c84-dd2537051584\",\"panelIndex\":\"26\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":22,\"i\":\"27\",\"w\":36,\"x\":0,\"y\":0},\"id\":\"60292c30-7637-11e8-af78-4ff20284cbaa\",\"panelIndex\":\"27\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":22,\"i\":\"28\",\"w\":31,\"x\":17,\"y\":22},\"id\":\"b4f51560-75f8-11e8-a5d7-3f7b9b80d4cf\",\"panelIndex\":\"28\",\"type\":\"visualization\",\"version\":\"6.3.0\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "Sun Jul 22 2018 23:59:59 GMT+0200",
+      "timeFrom": "Tue Jun 19 2018 00:00:00 GMT+0200",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "section": 0,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"type\":\"phrases\",\"key\":\"tags.keyword\",\"value\":\"untagged, football\",\"params\":[\"untagged\",\"football\"],\"negate\":false,\"disabled\":false,\"alias\":null},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"tags.keyword\":\"untagged\"}},{\"match_phrase\":{\"tags.keyword\":\"football\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "254f2590-8fc6-11e7-abbf-fd2b008dbf85",
+    "_type": "search",
+    "_source": {
+      "title": "Last inserted Tweet",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "tweet_content",
+        "hashtags"
+      ],
+      "sort": [
+        "inserted_in_es_at",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"query_string\":{\"query\":\"_type:tweet\",\"analyze_wildcard\":true}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2854cf30-8fec-11e7-b3c8-4d3b33c8873a",
+    "_type": "search",
+    "_source": {
+      "title": "Last inserted users",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "author_pseudo",
+        "author_name",
+        "author_location"
+      ],
+      "sort": [
+        "inserted_in_es_at",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"query_string\":{\"query\":\"_type:author\",\"analyze_wildcard\":true}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2d8ec0b0-760e-11e8-a075-3ba6b67e3691",
+    "_type": "search",
+    "_source": {
+      "title": "Hashtags: esp",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "entities.hashtags"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"entities.hashtags.text.keyword:esp\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2a5f2140-73c1-11e8-a81f-b5b60d5d1f25",
+    "_type": "visualization",
+    "_source": {
+      "title": "Comparison between 60 min",
+      "visState": "{\"title\":\"Comparison between 60 min\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at).mvavg(5m).label(\\\"Last 60 min\\\"),\\n\\n.es(timefield=processed_by_logstash_at, offset=-60m).mvavg(5m).label(\\\"60 min ago\\\"),\\n\\n.es(timefield=processed_by_logstash_at).subtract(.es(timefield=processed_by_logstash_at, offset=-60m)).mvavg(5m).label(\\\"Difference\\\").lines(steps=1,fill=2,width=0)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "61c4bdc0-7aab-11e8-8cc4-499d86da5b64",
+    "_type": "visualization",
+    "_source": {
+      "title": "Tags ammount of tweets",
+      "visState": "{\"title\":\"Tags ammount of tweets\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at, q=tags:technology).mvavg(5m).label(Technology),\\n.es(timefield=processed_by_logstash_at, q=tags:policy).mvavg(5m).label(Policy),\\n.es(timefield=processed_by_logstash_at, q=tags:football).mvavg(5m).label(Footbal),\\n.es(timefield=processed_by_logstash_at, q=tags:music).mvavg(5m).label(Music),\\n.es(timefield=processed_by_logstash_at, q=tags:films).mvavg(5m).label(Films),\\n.es(timefield=processed_by_logstash_at, q=*).mvavg(5m).label(Total)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b3eda7e0-60f9-11e8-b4b1-61c45b3c2182",
+    "_type": "visualization",
+    "_source": {
+      "title": "Timeleon tweet amount graph",
+      "visState": "{\"title\":\"Timeleon tweet amount graph\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at).label(Tweets).lines(fill=5).color(green), \\n.es(timefield=processed_by_logstash_at).mvavg(5m).label(Avergae5m).color(blue),\\n.es(timefield=processed_by_logstash_at).mvavg(30m).label(Avergae30m).color(purple)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "60292c30-7637-11e8-af78-4ff20284cbaa",
+    "_type": "visualization",
+    "_source": {
+      "title": "Futbol teams mvavg 5m",
+      "visState": "{\"title\":\"Futbol teams mvavg 5m\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(q=hashtags.keyword:ger, timefield=processed_by_logstash_at).mvavg(5m).label(Alemania),\\n.es(q=hashtags.keyword:ksa, timefield=processed_by_logstash_at).mvavg(5m).label(ArabiaSaudi),\\n.es(q=hashtags.keyword:arg, timefield=processed_by_logstash_at).mvavg(5m).label(Argentina),\\n.es(q=hashtags.keyword:aus, timefield=processed_by_logstash_at).mvavg(5m).label(Australia),\\n.es(q=hashtags.keyword:bel, timefield=processed_by_logstash_at).mvavg(5m).label(Belgica),\\n.es(q=hashtags.keyword:bra, timefield=processed_by_logstash_at).mvavg(5m).label(Brasil),\\n.es(q=hashtags.keyword:col, timefield=processed_by_logstash_at).mvavg(5m).label(Colombia),\\n.es(q=hashtags.keyword:kor, timefield=processed_by_logstash_at).mvavg(5m).label(Corea),\\n.es(q=hashtags.keyword:crc, timefield=processed_by_logstash_at).mvavg(5m).label(CostaRica),\\n.es(q=hashtags.keyword:cro, timefield=processed_by_logstash_at).mvavg(5m).label(Croacia),\\n.es(q=hashtags.keyword:den, timefield=processed_by_logstash_at).mvavg(5m).label(Dinamarca),\\n.es(q=hashtags.keyword:egy, timefield=processed_by_logstash_at).mvavg(5m).label(Egipto),\\n.es(q=hashtags.keyword:esp, timefield=processed_by_logstash_at).mvavg(5m).label(España),\\n.es(q=hashtags.keyword:fra, timefield=processed_by_logstash_at).mvavg(5m).label(Francia),\\n.es(q=hashtags.keyword:eng, timefield=processed_by_logstash_at).mvavg(5m).label(Inglaterra),\\n.es(q=hashtags.keyword:irn, timefield=processed_by_logstash_at).mvavg(5m).label(Iran),\\n.es(q=hashtags.keyword:isl, timefield=processed_by_logstash_at).mvavg(5m).label(Islandia),\\n.es(q=hashtags.keyword:jpn, timefield=processed_by_logstash_at).mvavg(5m).label(Japon),\\n.es(q=hashtags.keyword:mar, timefield=processed_by_logstash_at).mvavg(5m).label(Marruecos),\\n.es(q=hashtags.keyword:mex, timefield=processed_by_logstash_at).mvavg(5m).label(Mexico),\\n.es(q=hashtags.keyword:nga, timefield=processed_by_logstash_at).mvavg(5m).label(Nigeria),\\n.es(q=hashtags.keyword:pan, timefield=processed_by_logstash_at).mvavg(5m).label(Panama),\\n.es(q=hashtags.keyword:per, timefield=processed_by_logstash_at).mvavg(5m).label(Peru),\\n.es(q=hashtags.keyword:por, timefield=processed_by_logstash_at).mvavg(5m).label(Portugal),\\n.es(q=hashtags.keyword:pol, timefield=processed_by_logstash_at).mvavg(5m).label(Polonia),\\n.es(q=hashtags.keyword:rus, timefield=processed_by_logstash_at).mvavg(5m).label(Rusia),\\n.es(q=hashtags.keyword:sen, timefield=processed_by_logstash_at).mvavg(5m).label(Senegal),\\n.es(q=hashtags.keyword:srb, timefield=processed_by_logstash_at).mvavg(5m).label(Serbia),\\n.es(q=hashtags.keyword:swe, timefield=processed_by_logstash_at).mvavg(5m).label(Suecia),\\n.es(q=hashtags.keyword:sui, timefield=processed_by_logstash_at).mvavg(5m).label(Suiza),\\n.es(q=hashtags.keyword:tun, timefield=processed_by_logstash_at).mvavg(5m).label(Tunez),\\n.es(q=hashtags.keyword:uru, timefield=processed_by_logstash_at).mvavg(5m).label(Uruguay),\\n.es(q=hashtags.keyword:fifa, timefield=processed_by_logstash_at).mvavg(5m).label(Fifa)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b4f51560-75f8-11e8-a5d7-3f7b9b80d4cf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Futbol teams trends",
+      "visState": "{\"title\":\"Futbol teams trends\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(q=hashtags.keyword:ger, timefield=processed_by_logstash_at).trend().label(Alemania),\\n.es(q=hashtags.keyword:ksa, timefield=processed_by_logstash_at).trend().label(ArabiaSaudi),\\n.es(q=hashtags.keyword:arg, timefield=processed_by_logstash_at).trend().label(Argentina),\\n.es(q=hashtags.keyword:aus, timefield=processed_by_logstash_at).trend().label(Australia),\\n.es(q=hashtags.keyword:bel, timefield=processed_by_logstash_at).trend().label(Belgica),\\n.es(q=hashtags.keyword:bra, timefield=processed_by_logstash_at).trend().label(Brasil),\\n.es(q=hashtags.keyword:col, timefield=processed_by_logstash_at).trend().label(Colombia),\\n.es(q=hashtags.keyword:kor, timefield=processed_by_logstash_at).trend().label(Corea),\\n.es(q=hashtags.keyword:crc, timefield=processed_by_logstash_at).trend().label(CostaRica),\\n.es(q=hashtags.keyword:cro, timefield=processed_by_logstash_at).trend().label(Croacia),\\n.es(q=hashtags.keyword:den, timefield=processed_by_logstash_at).trend().label(Dinamarca),\\n.es(q=hashtags.keyword:egy, timefield=processed_by_logstash_at).trend().label(Egipto),\\n.es(q=hashtags.keyword:esp, timefield=processed_by_logstash_at).trend().label(España),\\n.es(q=hashtags.keyword:fra, timefield=processed_by_logstash_at).trend().label(Francia),\\n.es(q=hashtags.keyword:eng, timefield=processed_by_logstash_at).trend().label(Inglaterra),\\n.es(q=hashtags.keyword:irn, timefield=processed_by_logstash_at).trend().label(Iran),\\n.es(q=hashtags.keyword:isl, timefield=processed_by_logstash_at).trend().label(Islandia),\\n.es(q=hashtags.keyword:jpn, timefield=processed_by_logstash_at).trend().label(Japon),\\n.es(q=hashtags.keyword:mar, timefield=processed_by_logstash_at).trend().label(Marruecos),\\n.es(q=hashtags.keyword:mex, timefield=processed_by_logstash_at).trend().label(Mexico),\\n.es(q=hashtags.keyword:nga, timefield=processed_by_logstash_at).trend().label(Nigeria),\\n.es(q=hashtags.keyword:pan, timefield=processed_by_logstash_at).trend().label(Panama),\\n.es(q=hashtags.keyword:per, timefield=processed_by_logstash_at).trend().label(Peru),\\n.es(q=hashtags.keyword:por, timefield=processed_by_logstash_at).trend().label(Portugal),\\n.es(q=hashtags.keyword:pol, timefield=processed_by_logstash_at).trend().label(Polonia),\\n.es(q=hashtags.keyword:rus, timefield=processed_by_logstash_at).trend().label(Rusia),\\n.es(q=hashtags.keyword:sen, timefield=processed_by_logstash_at).trend().label(Senegal),\\n.es(q=hashtags.keyword:srb, timefield=processed_by_logstash_at).trend().label(Serbia),\\n.es(q=hashtags.keyword:swe, timefield=processed_by_logstash_at).trend().label(Suecia),\\n.es(q=hashtags.keyword:sui, timefield=processed_by_logstash_at).trend().label(Suiza),\\n.es(q=hashtags.keyword:tun, timefield=processed_by_logstash_at).trend().label(Tunez),\\n.es(q=hashtags.keyword:uru, timefield=processed_by_logstash_at).trend().label(Uruguay),\\n.es(q=hashtags.keyword:fifa, timefield=processed_by_logstash_at).trend().label(Fifa)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5076bdc0-7551-11e8-9979-41f2639f64a1",
+    "_type": "visualization",
+    "_source": {
+      "title": "Futbol teams",
+      "visState": "{\"title\":\"Futbol teams\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(q=hashtags.keyword:ger, timefield=processed_by_logstash_at).label(Alemania),\\n.es(q=hashtags.keyword:ksa, timefield=processed_by_logstash_at).label(ArabiaSaudi),\\n.es(q=hashtags.keyword:arg, timefield=processed_by_logstash_at).label(Argentina),\\n.es(q=hashtags.keyword:aus, timefield=processed_by_logstash_at).label(Australia),\\n.es(q=hashtags.keyword:bel, timefield=processed_by_logstash_at).label(Belgica),\\n.es(q=hashtags.keyword:bra, timefield=processed_by_logstash_at).label(Brasil),\\n.es(q=hashtags.keyword:col, timefield=processed_by_logstash_at).label(Colombia),\\n.es(q=hashtags.keyword:kor, timefield=processed_by_logstash_at).label(Corea),\\n.es(q=hashtags.keyword:crc, timefield=processed_by_logstash_at).label(CostaRica),\\n.es(q=hashtags.keyword:cro, timefield=processed_by_logstash_at).label(Croacia),\\n.es(q=hashtags.keyword:den, timefield=processed_by_logstash_at).label(Dinamarca),\\n.es(q=hashtags.keyword:egy, timefield=processed_by_logstash_at).label(Egipto),\\n.es(q=hashtags.keyword:esp, timefield=processed_by_logstash_at).label(España),\\n.es(q=hashtags.keyword:fra, timefield=processed_by_logstash_at).label(Francia),\\n.es(q=hashtags.keyword:eng, timefield=processed_by_logstash_at).label(Inglaterra),\\n.es(q=hashtags.keyword:irn, timefield=processed_by_logstash_at).label(Iran),\\n.es(q=hashtags.keyword:isl, timefield=processed_by_logstash_at).label(Islandia),\\n.es(q=hashtags.keyword:jpn, timefield=processed_by_logstash_at).label(Japon),\\n.es(q=hashtags.keyword:mar, timefield=processed_by_logstash_at).label(Marruecos),\\n.es(q=hashtags.keyword:mex, timefield=processed_by_logstash_at).label(Mexico),\\n.es(q=hashtags.keyword:nga, timefield=processed_by_logstash_at).label(Nigeria),\\n.es(q=hashtags.keyword:pan, timefield=processed_by_logstash_at).label(Panama),\\n.es(q=hashtags.keyword:per, timefield=processed_by_logstash_at).label(Peru),\\n.es(q=hashtags.keyword:por, timefield=processed_by_logstash_at).label(Portugal),\\n.es(q=hashtags.keyword:pol, timefield=processed_by_logstash_at).label(Polonia),\\n.es(q=hashtags.keyword:rus, timefield=processed_by_logstash_at).label(Rusia),\\n.es(q=hashtags.keyword:sen, timefield=processed_by_logstash_at).label(Senegal),\\n.es(q=hashtags.keyword:srb, timefield=processed_by_logstash_at).label(Serbia),\\n.es(q=hashtags.keyword:swe, timefield=processed_by_logstash_at).label(Suecia),\\n.es(q=hashtags.keyword:sui, timefield=processed_by_logstash_at).label(Suiza),\\n.es(q=hashtags.keyword:tun, timefield=processed_by_logstash_at).label(Tunez),\\n.es(q=hashtags.keyword:uru, timefield=processed_by_logstash_at).label(Uruguay),\\n.es(q=hashtags.keyword:fifa, timefield=processed_by_logstash_at).label(Fifa)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4fd7ab30-7b7e-11e8-a3cc-b5aba57bdb67",
+    "_type": "visualization",
+    "_source": {
+      "title": "Heatmap area",
+      "visState": "{\"title\":\"Heatmap area\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Heatmap\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{\"_c\":[],\"_s\":1,\"_d\":true,\"_v\":true,\"_h\":0,\"_n\":false},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.3.0\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.3.0\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location.area\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":2}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b02ef730-7b9d-11e8-af01-676b467f3271",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sentiment distribution",
+      "visState": "{\"title\":\"Sentiment distribution\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"sentiment.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4515e960-7c72-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Tags percents",
+      "visState": "{\"title\":\"Tags percents\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"tags.keyword\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d6bbb830-7c73-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top languages",
+      "visState": "{\"title\":\"Top languages\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"tweet_lang.keyword\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "8de50580-7c73-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Tweet amount",
+      "visState": "{\"title\":\"Tweet amount\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "449be620-7c6c-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Map of original users",
+      "visState": "{\"title\":\"Map of original users\",\"type\":\"region_map\",\"params\":{\"legendPosition\":\"bottomright\",\"addTooltip\":true,\"colorSchema\":\"Green to Red\",\"selectedLayer\":{\"attribution\":\"<p><a href=\\\"http://www.naturalearthdata.com/about/terms-of-use\\\">Made with NaturalEarth</a> | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"name\":\"World Countries\",\"weight\":1,\"format\":{\"type\":\"geojson\"},\"url\":\"https://vector.maps.elastic.co/blob/5659313586569216?elastic_tile_service_tos=agree&my_app_version=6.3.0\",\"fields\":[{\"name\":\"iso2\",\"description\":\"Two letter abbreviation\"},{\"name\":\"name\",\"description\":\"Country name\"},{\"name\":\"iso3\",\"description\":\"Three letter abbreviation\"}],\"created_at\":\"2017-04-26T17:12:15.978370\",\"tags\":[],\"id\":5659313586569216,\"layerId\":\"elastic_maps_service.World Countries\"},\"selectedJoinField\":{\"name\":\"name\",\"description\":\"Country name\"},\"isDisplayWarning\":false,\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{\"_c\":[],\"_s\":1,\"_d\":true,\"_v\":true,\"_h\":0,\"_n\":false},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.3.0\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.3.0\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}},\"mapZoom\":2,\"mapCenter\":[0,0],\"outlineWeight\":1,\"showAllShapes\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"original_author.author_location.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":9999,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ceb0ea90-7d1b-11e8-9d8d-695f630a9b5d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Retweets",
+      "visState": "{\"title\":\"Retweets\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"is_a_retweet.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e4cc0150-7c46-11e8-93f8-bfd6ed59c58c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Tags split",
+      "visState": "{\"title\":\"Tags split\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at, split=tags.keyword:10).mvavg(5m).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "706d8e50-610c-11e8-848d-ef80b491cdc2",
+    "_type": "visualization",
+    "_source": {
+      "title": "Comparison timelion concepts",
+      "visState": "{\"title\":\"Comparison timelion concepts\",\"type\":\"timelion\",\"params\":{\"expression\":\".add(.es(q=tweet_content:artificialintelligence, timefield=processed_by_logstash_at), .es(q=tweet_content:ai, timefield=processed_by_logstash_at)).lines(fill=5).mvavg(5m).label(ArtificialIntelligence), \\n\\n.add(.es(q=tweet_content:internetofthings, timefield=processed_by_logstash_at), .es(q=tweet_content:iot, timefield=processed_by_logstash_at)).lines(fill=5).mvavg(5m).label(InternetOfThings), \\n\\n.add(.es(q=tweet_content:machinelearning, timefield=processed_by_logstash_at), .es(q=tweet_content:ml, timefield=processed_by_logstash_at)).lines(fill=5).mvavg(5m).label(MachineLearning), \\n\\n.add(.es(q=tweet_content:deeplearning, timefield=processed_by_logstash_at), .es(q=tweet_content:dl, timefield=processed_by_logstash_at)).lines(fill=5).mvavg(5m).label(DeepLearning),  \\n\\n.add(.es(q=tweet_content:datascience, timefield=processed_by_logstash_at)).lines(fill=5).mvavg(5m).label(DataScience)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "00234260-610d-11e8-848d-ef80b491cdc2",
+    "_type": "visualization",
+    "_source": {
+      "title": "Comparison timelion concepts trends",
+      "visState": "{\"title\":\"Comparison timelion concepts trends\",\"type\":\"timelion\",\"params\":{\"expression\":\".add(.es(q=tweet_content:artificialintelligence, timefield=processed_by_logstash_at), .es(q=tweet_content:ai, timefield=processed_by_logstash_at)).trend().label(ArtificialIntelligence), \\n\\n.add(.es(q=tweet_content:internetofthings, timefield=processed_by_logstash_at), .es(q=tweet_content:iot, timefield=processed_by_logstash_at)).trend().label(InternetOfThings), \\n\\n.add(.es(q=tweet_content:machinelearning, timefield=processed_by_logstash_at), .es(q=tweet_content:ml, timefield=processed_by_logstash_at)).trend().label(MachineLearning), \\n\\n.add(.es(q=tweet_content:deeplearning, timefield=processed_by_logstash_at), .es(q=tweet_content:dl, timefield=processed_by_logstash_at)).trend().label(DeepLearning),  \\n\\n.add(.es(q=tweet_content:datascience, timefield=processed_by_logstash_at)).trend().label(DataScience)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6f187b10-610b-11e8-848d-ef80b491cdc2",
+    "_type": "visualization",
+    "_source": {
+      "title": "Comparison timelion tecnologies",
+      "visState": "{\"title\":\"Comparison timelion tecnologies\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(q=tweet_content:logstash, timefield=processed_by_logstash_at).mvavg(5m).label(Logstash),\\n.es(q=tweet_content:elasticsearch, timefield=processed_by_logstash_at).mvavg(5m).label(Elasticsearch),\\n.es(q=tweet_content:kibana, timefield=processed_by_logstash_at).mvavg(5m).label(Kiabana),\\n.es(q=tweet_content:spark, timefield=processed_by_logstash_at).mvavg(5m).label(Spark),\\n.es(q=tweet_content:grafana, timefield=processed_by_logstash_at).mvavg(5m).label(Grafana),\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "146bbe20-610b-11e8-848d-ef80b491cdc2",
+    "_type": "visualization",
+    "_source": {
+      "title": "Comparison timelion programming languages",
+      "visState": "{\"title\":\"Comparison timelion programming languages\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(q=tweet_content:python, timefield=processed_by_logstash_at).label(Python).mvavg(5m),\\n.es(q=tweet_content:scala, timefield=processed_by_logstash_at).label(Scala).mvavg(5m),\\n.es(q=tweet_content:java, timefield=processed_by_logstash_at).label(Java).mvavg(5m),\\n.es(q=tweet_content:r, timefield=processed_by_logstash_at).label(R).mvavg(5m),\\n.es(q=tweet_content:c, timefield=processed_by_logstash_at).label(C).mvavg(5m)\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "24088340-7d30-11e8-9d8d-695f630a9b5d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Locations split",
+      "visState": "{\"title\":\"Locations split\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at, split=author.author_location.keyword:10).mvavg(15m).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e6f58a20-836f-11e8-aca2-1d3434ee706c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sentiment split english",
+      "visState": "{\"title\":\"Sentiment split english\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at, q=tweet_lang:en,split=sentiment.keyword:15).mvavg(5m).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2aaa2d90-60f5-11e8-b4b1-61c45b3c2182",
+    "_type": "visualization",
+    "_source": {
+      "title": "Timelion hashtags trends",
+      "visState": "{\"title\":\"Timelion hashtags trends\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(split=hashtags.keyword:5, timefield=processed_by_logstash_at).trend(mode=log).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "220d9e60-7dc4-11e8-92ab-b58ebe4a3f62",
+    "_type": "visualization",
+    "_source": {
+      "title": "Most followed users",
+      "visState": "{\"title\":\"Most followed users\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":false,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Max author.author_followers_count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Max author.author_followers_count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"author.author_followers_count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5548e770-7c71-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Most active users",
+      "visState": "{\"title\":\"Most active users\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":false,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "06a62a70-8b39-11e8-a602-e5df784f9854",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sentiment split mvavg 5m",
+      "visState": "{\"title\":\"Sentiment split mvavg 5m\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at, split=sentiment.keyword:15).mvavg(5m).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "8a984850-7c6f-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Hashtags list",
+      "visState": "{\"title\":\"Hashtags list\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"hashtags.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ec9fa660-7c6f-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Hashtags tag cloud 100",
+      "visState": "{\"title\":\"Hashtags tag cloud 100\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":18,\"maxFontSize\":72,\"showLabel\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"hashtags.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f68c15f0-7c6f-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Hashtags tag cloud 50",
+      "visState": "{\"title\":\"Hashtags tag cloud 50\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":18,\"maxFontSize\":72,\"showLabel\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"hashtags.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "230e3780-6112-11e8-848d-ef80b491cdc2",
+    "_type": "visualization",
+    "_source": {
+      "title": "Timelion most used hashtags mvavg 15m",
+      "visState": "{\"title\":\"Timelion most used hashtags mvavg 15m\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(split=hashtags.keyword:5, timefield=processed_by_logstash_at).lines(fill=5).mvavg(15m).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1abfc6b0-60f5-11e8-b4b1-61c45b3c2182",
+    "_type": "visualization",
+    "_source": {
+      "title": "Timelion most used hashtags",
+      "visState": "{\"title\":\"Timelion most used hashtags\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(split=hashtags.keyword:5, timefield=processed_by_logstash_at).lines(fill=5).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "85b70c10-8348-11e8-aca2-1d3434ee706c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sentiment split",
+      "visState": "{\"title\":\"Sentiment split\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(timefield=processed_by_logstash_at, split=sentiment.keyword:15).label('$1', '.*:(.*)>.*')\",\"interval\":\"auto\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a86a2440-843d-11e8-aca2-1d3434ee706c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Tweet content",
+      "visState": "{\"title\":\"Tweet content\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"tweet_content.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"sentiment_score\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5c1bbe20-7c75-11e8-8c84-dd2537051584",
+    "_type": "visualization",
+    "_source": {
+      "title": "Most activer verified users",
+      "visState": "{\"title\":\"Most activer verified users\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":false,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"original_author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"original_author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[{\"meta\":{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"original_author.is_author_verified\",\"value\":\"true\",\"params\":{\"query\":true,\"type\":\"phrase\"}},\"query\":{\"match\":{\"original_author.is_author_verified\":{\"query\":true,\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3b59e810-7dc4-11e8-92ab-b58ebe4a3f62",
+    "_type": "visualization",
+    "_source": {
+      "title": "Most followed verified users",
+      "visState": "{\"title\":\"Most followed verified users\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":false,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Max author.author_followers_count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Max author.author_followers_count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"author.author_followers_count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"original_author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"original_author.author_pseudo.keyword\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"8564f480-84f5-11e8-8ef9-b9f8753a088b\",\"filter\":[{\"meta\":{\"index\":\"4bcee670-7b79-11e8-8945-bf82c8f252c1\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"original_author.is_author_verified\",\"value\":true,\"params\":{\"query\":true,\"type\":\"phrase\"}},\"query\":{\"match\":{\"original_author.is_author_verified\":{\"query\":true,\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"kuery\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]

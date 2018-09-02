@@ -1,0 +1,29 @@
+{
+  "template": "tw*",
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {
+      "normalizer": {
+        "basic": {
+          "filter": [
+            "lowercase"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "doc": {
+      "dynamic": true,
+        "properties": {
+          "location": {
+            "properties": {          
+              "coordinates": { "type": "geo_point" },
+              "area": { "type": "geo_point" }
+          }
+        }
+      }
+    }
+  }
+}
